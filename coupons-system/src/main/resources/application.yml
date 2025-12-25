@@ -1,0 +1,12 @@
+#spring.application.name=coupons-system
+spring:
+  application:
+    name: coupons-system
+  datasource:
+    url: jdbc:mysql://localhost:3306/coupons_db
+    username: root
+    password: Divyansh@123
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
